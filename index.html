@@ -4,19 +4,21 @@
     <meta charset="UTF-8"> 
     <title>Новости</title>
     <link rel="stylesheet" href="css/index.css">
+    
 </head>
 <body>
-    <div class="logos"> 
-       <img class="mainlogo" src="pics/logonews.png" alt="newslogo" width="120" height="120">
-        <figure class="socnetlogos">
-        <a href="https://vk.com/" target="_blank"><img src="pics/vklogo.png" alt="vklogo" width="30" height="30"></a>
-        <a href="https://facebook.com" target="_blank"><img src="pics/fblogo.png" alt="fblogo" width="30" height="30"></a>
-        <a href="https://instagram.com" target="_blank"><img src="pics/instlogo.png" alt="instlogo" width="30" height="30"></a>
-        </figure>
-    </div>
-    <nav class="navmenu">
+    <div class="wrapper"> 
+        <div class="header"> 
+            <div class="header__logos"> 
+             <img src="pics/logonews.png" alt="newslogo" width="120" height="120">
+             <div class="header__logos__socnetlogo"></div><a href="https://vk.com/" target="_blank"><img src="pics/vklogo.png" alt="vklogo" width="30" height="30"></a>
+             <a href="https://facebook.com" target="_blank"><img src="pics/fblogo.png" alt="fblogo" width="30" height="30"></a>
+             <a href="https://instagram.com" target="_blank"><img src="pics/instlogo.png" alt="instlogo" width="30" height="30"></a>
+            </div>
+        </div> 
+        <nav class="navmenu">
         <span>|</span>
-        <div class="scale"><a href="index.html">Новости</a></div> 
+        <div class="scale"><a href="index.html" >Новости</a></div> 
         <span>|</span>
         <div class="scale"><a href="events.html">События</a></div>
         <span>|</span>
@@ -26,25 +28,36 @@
         <span>|</span>
         <div class="scale"><a href="forum.html">Форум</a></div>
         <span>|</span>
-    </nav>
-    <div class="news">
+        </nav>
+      <div class="main">
+       <div class="main__news">
         <section>
-         <span>
              <img src="pics/cigarets.jpg" alt="cigarets" width="150" height="100">
-             <a href="https://censor.net.ua/news/3204755/monopolizatsiya_tabachnogo_rynka_amku_pytaetsya_perelojit_na_proizvoditeleyi_otvetstvennost_za_prinyatye">Монополизация табачного рынка: АМКУ пытается переложить на производителей ответственность за принятые им же решения, - СМИ</a> 
-         </span>
+              <h2>
+                  <a href="https://censor.net.ua/news/3204755/monopolizatsiya_tabachnogo_rynka_amku_pytaetsya_perelojit_na_proizvoditeleyi_otvetstvennost_za_prinyatye">Монополизация табачного рынка: АМКУ пытается переложить на производителей ответственность за принятые им же решения, - СМИ</a> 
+              </h2>
+              <h3>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam reiciendis suscipit voluptas. Sit esse, natus molestias necessitatibus perspiciatis velit beatae!
+              </h3>
     </section>
     <section>
-        <span>
             <img src="pics/coronanews.jpg" alt="coronanews" width="150" height="100">
-            <a href="https://censor.net.ua/news/3204838/kiev_i_11_oblasteyi_ukrainy_ne_otvechayut_trebovaniyam_dlya_smyagcheniya_karantina_minzdrav_infografika">Киев и 11 областей Украины не отвечают требованиям для смягчения карантина, - Минздрав. ИНФОГРАФИКА</a>
-        </span>
-    </section>
+            <h2>
+                 <a href="https://censor.net.ua/news/3204838/kiev_i_11_oblasteyi_ukrainy_ne_otvechayut_trebovaniyam_dlya_smyagcheniya_karantina_minzdrav_infografika">Киев и 11 областей Украины не отвечают требованиям для смягчения карантина, - Минздрав. ИНФОГРАФИКА</a>
+            </h2>
+           <h3>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ad dolorem ut facilis ab nam unde illum, amet dolore veritatis molestias sed laborum nobis eius corrupti perspiciatis? Autem, ipsa minima.
+           </h3>
+  
+        </section>
     <section>
-        <span>
             <img src="pics/house.jpg" alt="house" width="150" height="100" >
-            <a href="https://censor.net.ua/news/3204816/strany_es_pomogut_ukraine_likvidirovat_posledstviya_pavodkov_kuleba">Страны ЕС помогут Украине ликвидировать последствия паводков, - Кулеба</a>
-        </span>
+            <h2>
+                <a href="https://censor.net.ua/news/3204816/strany_es_pomogut_ukraine_likvidirovat_posledstviya_pavodkov_kuleba">Страны ЕС помогут Украине ликвидировать последствия паводков, - Кулеба</a>
+            </h2>
+            <h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore, corrupti eaque non animi illo voluptas laborum quidem suscipit sapiente ipsam, quis odio praesentium consectetur ea. Iusto cupiditate odit sit?
+            </h3>
     </section>
     <section>
         <span>
@@ -76,19 +89,41 @@
            <a href="https://censor.net.ua/news/3204805/pervoe_delo_o_knopkodavstve_uje_v_sude_pervyyi_zampredsedatelya_vr_stefanchuk">Первое дело о кнопкодавстве уже в суде, - первый зампредседателя ВР Стефанчук</a>
        </span>
    </section>
-    </div>
-    <br>
+        </div>
+  </div>
+ </div>
 </body>
 <footer>
-    <div class="navmenu2">
-        <span>Реклама</span>
-        <span>Правила использования</span>
-        <span>Контакты</span>
+    <div class="footer">
+        <div class="footer__nav">
+          <div class="footer__nav__ads">
+              <span>Реклама</span>
+              <div class="footer__nav__ads__text">
+                  По рекламе писать на почту news@ads.com
+              </div>
+          </div> 
+          <div class="footer__nav__rules">
+              <span>Правила использования</span>
+              <div class="footer__nav__rules__text">
+                Все материалы, размещённые на этом сайте со ссылкой на агентство “News“, не подлежат дальнейшему воспроизведению и/или распространению в какой-либо форме, кроме как с письменного разрешения агентства “News“.
+              </div>
+          </div>
+          <div class="footer__nav__contacts">
+              <span>Контакты</span>
+              <div class="footer__nav__contacts__text">
+               <span>Для пресс служб - press@news.com</span> 
+               <span>По административным вопросам - admin@news.com</span> 
+               <span>Реклама - ads@news.com</span> 
+              </div>
+          </div>
+         
+        </div>
+        <address class="footer__email">
+          <p>Подписаться на E-Mail рассылку</p>
+          <input placeholder="kavabanga@gmail.com" type="text">
+          <button>Подписаться</button>
+        </address>
     </div>
-    <address class="emailspam">
-        <p>Подписаться на E-Mail рассылку</p>
-        <input placeholder="kavabanga@gmail.com" type="text">
-        <button>Подписаться</button>
-    </address>
     </footer>
+    <script src="js/index.js"></script>
 </html>
